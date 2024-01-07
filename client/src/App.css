@@ -1,0 +1,86 @@
+.light-theme {
+  --app-bar: whitesmoke;
+  --tool-bar: whitesmoke;
+  --first-section-box: whitesmoke;
+  --first-section-typo-bgcolor: whitesmoke;
+  --first-section-typo-color: black;
+  --second-section-box: whitesmoke;
+  --second-section-ul: whitesmoke;
+  --second-section-li: whitesmoke;
+  --second-section-li-color: black;
+  --about-bg-color: whitesmoke;
+  --about-text-color: black;
+  --skills-bg-color: black;
+  --skills-text-color: white;
+  --projects-bg-color: whitesmoke;
+  --projects-text-color: black;
+  --projects-box-bg-color: white;
+  --footer-bg-color: whitesmoke;
+  --footer-text-color: black;
+  --footer-box-shadow-color: grey;
+}
+
+.dark-theme {
+  --app-bar: black;
+  --tool-bar: black;
+  --first-section-box: black;
+  --first-section-typo-bgcolor: black;
+  --first-section-typo-color: white;
+  --second-section-box: black;
+  --second-section-ul: black;
+  --second-section-li: black;
+  --second-section-li-color: white;
+  --about-bg-color: rgba(0, 0, 0, 0.8);
+  --about-text-color: white;
+  --skills-bg-color: whitesmoke;
+  --skills-text-color: black;
+  --projects-bg-color: rgba(0, 0, 0, 0.8);
+  --projects-text-color: white;
+  --projects-box-bg-color: whitesmoke;
+  --footer-bg-color: black;
+  --footer-text-color: white;
+  --footer-box-shadow-color: white;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.typed-cursor{
+  display: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
