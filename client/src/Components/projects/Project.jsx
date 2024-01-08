@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import projectData from "../../data/projectData.js";
 
 const NewBox = styled(Box)`
-    height: 70vh;
+    min-height: 70vh;
     background-color: var(--projects-bg-color);
     color: var(--projects-text-color);
     padding-top: 60px;
@@ -16,7 +16,7 @@ const NewBox = styled(Box)`
     }
 
     @media screen and (max-height: 500px){
-        height: 500px;
+        //height: 500px;
     }
 `
 
