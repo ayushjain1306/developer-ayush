@@ -12,7 +12,7 @@ const NewBox = styled(Box)`
     @media screen and (max-width: 700px){
         padding-top: 80px;
         min-height: 70vh;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     @media screen and (max-height: 500px){
