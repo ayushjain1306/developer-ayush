@@ -7,6 +7,14 @@ const projectData = [
             website: "https://clone-flipkart-mern-stack.vercel.app",
             github: "https://www.github.com/ayushjain1306/clone_flipkart"
         }
+    }, 
+    {
+        title: "Weather Website",
+        description: "This website gives you the accurate temperature and other weather details of your city. This website is based on HTML, CSS,  Bootstrap and JavaScript.",
+        skills: "HTML, CSS and JavaScript",
+        link: {
+            website: "https://wed-web.vercel.app",
+            github: "https://www.github.com/ayushjain1306/wed-web"
     }
 ];
 
