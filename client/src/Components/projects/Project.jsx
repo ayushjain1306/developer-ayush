@@ -11,6 +11,8 @@ const NewBox = styled(Box)`
 
     @media screen and (max-width: 700px){
         padding-top: 80px;
+        min-height: 70vh;
+        padding-bottom: 20px;
     }
 
     @media screen and (max-height: 500px){
@@ -34,11 +36,13 @@ const AnotherBox = styled(Box)`
     border-radius: 10px;
     box-shadow: 9px 8px 0px 0px rgb(172, 169, 169);
     background-color: var(--projects-box-bg-color);
+    margin-right: 20px;
 
     @media screen and (max-width: 700px){
         width: 75%;
         margin: auto;
         padding-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     @media screen and (min-width: 700px) and (max-width: 1100px){
