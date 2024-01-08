@@ -41,7 +41,7 @@ const AnotherBox = styled(Box)`
     @media screen and (max-width: 700px){
         width: 75%;
         margin: auto;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         margin-bottom: 20px;
     }
 
