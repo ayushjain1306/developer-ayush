@@ -15,6 +15,7 @@ const projectData = [
         link: {
             website: "https://wed-web.vercel.app",
             github: "https://www.github.com/ayushjain1306/wed-web"
+        }
     }
 ];
 
