@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Typography, Button, styled } from "@mui/material"
+import { Box, Typography, Button, styled } from "@mui/material";
+import { Link } from "react-scroll";
 
 const NewBox = styled(Box)`
     background-color: var(--about-bg-color);
@@ -69,7 +70,7 @@ function About(){
                 I have started my coding journey in my 11th standards where I learn to code in Python and continued to learn more concepts of Python in my 12th standards. In 2021, I started my college journey with the basic concepts of C and C++. Before starting my 3rd semester, I shift to Java and also done the concepts of DSA in Java. Then, I move on to Web Development and now, I am creating various web applications through MERN Stack.
             </ContentTypo>
             <Box style = {{textAlign: "center"}}>
-                <NewButton variant = "contained">Connect with me</NewButton>
+                <Link to = "contact" offset = 0 ><NewButton variant = "contained">Connect with me</NewButton>
             </Box>
         </NewBox>
     )
