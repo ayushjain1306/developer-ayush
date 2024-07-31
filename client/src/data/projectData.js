@@ -1,5 +1,14 @@
 const projectData = [
     {
+        title: "Blog Website" 
+        description: "This is a blog website that gives an experience of creating blogs based on the categories like Music, Health  Travel and much more. It uses JWT Auth for user authentication and Redux for storing blogs.",
+        skills: ["MERN Stack", "JWT Auth"],
+        link: {
+            website: "https://blo-web.vercel.app",
+            github: "https://www.github.com/ayushjain1306/Blog-Website"
+        }
+    },
+    {
         title: "Flipkart Clone",
         description: "This is a flipkart clone website which is completely based on MERN Stack Technologies. It involves all the working functionalities like working login/signup page, working cart page and more.",
         skills: "MERN Stack",
