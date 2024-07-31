@@ -1,6 +1,6 @@
 const projectData = [
     {
-        title: "Blog Website" 
+        title: "Blog Website",
         description: "This is a blog website that gives an experience of creating blogs based on the categories like Music, Health  Travel and much more. It uses JWT Auth for user authentication and Redux for storing blogs.",
         skills: ["MERN Stack", "JWT Auth", "Firebase"],
         link: {
